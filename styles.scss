@@ -1,0 +1,62 @@
+$darkBackground: #333;
+$lightText: #EEE;
+$barColor: #4682B4;
+
+#world {
+  width: 700px;
+  margin: auto;
+  position: relative;
+}
+svg {
+  outline: blue;
+}
+body {
+  font-size: 16px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 0;
+  padding: 2px 0px 5px 10px;
+  background-color: $darkBackground;
+  color: $lightText;
+}
+#sig {
+  float: right;
+  color: $lightText;
+  font-size: 1.2em;
+  margin: 10px;
+}
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: #556677;
+}
+  
+.hidden { 
+  display: none; 
+}
+#tooltip {
+  color: #fff; 
+  background: #000077; 
+  padding: .5em; 
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  font-weight: bold;
+  font-family: Arial Narrow, Helvetica, sans-serif;
+  position: absolute;
+  display: none;
+}
+.tipData {
+  display: inline;
+  font-weight: normal;
+}
+.tipDataR {
+  display: inline;
+  padding-left: 15px;
+}
+table, th, td {
+    border-collapse: collapse;
+}
